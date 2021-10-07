@@ -1,0 +1,29 @@
+.navbar ul{
+    display: flex;
+    flex-direction:column;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar {
+    background-color:darkslategrey;
+}
+
+.navbar li{
+    margin: 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a.nav-selected {
+    font-weight: bold;
+}
+
+@media only screen and (min-widht:600px) {
+    .navbar ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}
