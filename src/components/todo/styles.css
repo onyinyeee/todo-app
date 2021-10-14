@@ -1,0 +1,33 @@
+.todo {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+    background: rgb(133,133,133);
+    color: blanchedalmond;
+
+}
+
+.todo-delete, .todo-complete {
+    background: transparent;
+    border: none;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.todo-text {
+    font-weight: bold;
+}
+
+.todo-date {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color:whitesmoke;
+
+}
