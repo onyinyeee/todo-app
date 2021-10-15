@@ -11,7 +11,7 @@ export const Input = ({name, label, type, required, register, errors, validation
             <input name={name} type={type} {...register(name,validationSchema)}/>
 
             {
-                (errors[name]?.type === "required") && <span> This field is required!</span>
+                (errors[name]?.type === "required") && <span className="error"> This field is required!</span>
             }
 
         </div>
